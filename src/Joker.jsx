@@ -26,8 +26,8 @@ export default function Joker() {
         <h1> My Joker!</h1>
       </div>
       <div className="joker-joke-container">
-        <h3 className="joker-setup">{joke.setup}</h3>
-        <h4 className="joker-punchline">{joke.punchline}</h4>
+        <h2 className="joker-setup">{joke.setup}</h2>
+        <h3 className="joker-punchline">{joke.punchline}</h3>
       </div>
       <div>
         <button className="joker-button" onClick={getNewJock}>New Joke</button>
